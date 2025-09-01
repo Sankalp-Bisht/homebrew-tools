@@ -1,4 +1,4 @@
-class SwiftuiAcc < Formula
+class AutomateSwiftuiAccessibility < Formula
   desc "CLI for SwiftUI accessibility automation"
   homepage "https://github.com/Sankalp-Bisht/SwiftUI-Accessibility-Automation"
   version "1.0"
