@@ -1,0 +1,23 @@
+# macOS specific files
+.DS_Store
+
+# Editor/IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts or temporary files (if applicable)
+*.log
+*.bak
+*.swp
+tmp/
+
+# Homebrew-specific generated files
+# These are typically created during local testing or development
+# and should not be committed to the tap.
+# You might need to adjust these based on your specific tap's needs.
+# For example, if you build bottles locally.
+*.bottle.*
+*.json
+build/
