@@ -7,11 +7,11 @@ class AutomateSwiftuiAccessibility < Formula
   sha256 "6ca44da3cc255c3633ce2045cedefe6c554924120934de976639b7f8076d01cd"
 
   def install
-    bin.install "swiftui-acc-arm64" => "swiftui-acc"
-    chmod 0555, bin/"swiftui-acc"
+    bin.install "swiftui-acc-arm64" => "automate-swiftui-accessibility"
+    chmod 0555, bin/"automate-swiftui-accessibility"
   end
 
   test do
-    assert_match "--help", shell_output("#{bin}/swiftui-acc --help")
+    assert_match "--help", shell_output("#{bin}/automate-swiftui-accessibility --help")
   end
 end
